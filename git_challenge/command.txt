@@ -1,0 +1,23 @@
+PS C:\Users\kongo\kadai_004> git init
+Initialized empty Git repository in C:/Users/kongo/kadai_004/.git/
+PS C:\Users\kongo\kadai_004> git add .
+PS C:\Users\kongo\kadai_004> git commit -m "hello_world.txtを追加"
+[main (root-commit) da85fec] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\kongo\kadai_004> git add .
+PS C:\Users\kongo\kadai_004> git commit -m "日本語訳を追記"
+[main b83446d] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+PS C:\Users\kongo\kadai_004> git log
+commit b83446dfa55d6bde054cfe7edf4a4ab09c4ad3d0 (HEAD -> main)
+Author: kongou1121 <kongou1121.2002@gmail.com>
+Date:   Thu Dec 14 05:56:00 2023 +0900
+
+    日本語訳を追記
+
+commit da85fec9ccff0bdef1784548a989ee32b0c0002f
+Author: kongou1121 <kongou1121.2002@gmail.com>
+Date:   Thu Dec 14 05:55:22 2023 +0900
+
+    hello_world.txtを追加
